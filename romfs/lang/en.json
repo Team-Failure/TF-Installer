@@ -25,7 +25,7 @@
         },
         "applet": {
             "title": "Applet Mode not supported",
-            "desc": "You may experience issues using Awoo Installer in Applet Mode. If you do\nhave problems, please switch to running Awoo Installer over an installed\ntitle (hold R while starting a game)!"
+            "desc": "You may experience issues using TF Installer in Applet Mode. If you do\nhave problems, please switch to running TF Installer over an installed\ntitle (hold R while starting a game)!"
         },
         "buttons": "\ue0e0 Select    \ue0e1 Exit"
     },
@@ -150,13 +150,13 @@
             "gay_option": "Remove anime",
             "sig_url": "Signature patches source URL: ",
             "language": "Language: ",
-            "check_update": "Check for updates to Awoo Installer",
+            "check_update": "Check for updates to TF Installer",
             "credits": "Credits"
         },
         "nca_warn": {
             "title": "Warning!",
             "desc": "Some installable files may contain malicious contents! Only disable this\nfeature if you are absolutely certain the software you will be installing\nis trustworthy!\n\nDo you still want to disable NCA signature verification?",
-            "opt1": "Yes, I want a brick"
+            "opt1": "Yes, I understand I can brick my Switch"
         },
         "sig_hint": "Enter the URL to obtain Signature Patches from",
         "update": {
@@ -171,14 +171,14 @@
             "failed": "Update failed!",
             "end_desc": "The software will now be closed.",
             "title_check_fail": "No updates found",
-            "desc_check_fail": "You are on the latest version of Awoo Installer!"
+            "desc_check_fail": "You are on the latest version of TF Installer!"
         },
         "credits": {
             "title": "Thanks to the following people!",
             "desc": "- HookedBehemoth for A LOT of contributions\n- Adubbz and other contributors for Tinfoil\n- XorTroll for Plutonium and Goldleaf\n- blawar (wife strangulator) and nicoboss for NSZ support\n- The kind folks at the AtlasNX Discuck (or at least some of them)\n- The also kind folks at the RetroNX Discuck (of no direct involvement)\n- namako8982 for the Momiji art\n- TheXzoron for being a baka"
         },
         "language": {
-            "title": "Select Awoo Installer's language",
+            "title": "Select TF Installer's language",
             "desc": "The software will be closed after changing languages. Press B to cancel.",
             "system_language": "System"
         },
