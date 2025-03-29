@@ -4,7 +4,7 @@
             "sd": "Installer à partir de la carte SD",
             "net": "Installer à partir d'un LAN ou d'internet",
             "usb": "Installer à partir d'un périphèrique USB",
-            "sig": "Gérer les sigpatches",
+            "sig": "Gérer les syspatchs",
             "set": " Paramètres",
             "exit": " Quitter"
         },
@@ -25,7 +25,7 @@
         },
         "applet": {
             "title": "Le mode Applet n'est pas compatible",
-            "desc": "Vous pouvez rencontrer des problèmes en utilisant Awoo Installer en mode Applet.\n\n Si vous avez des problèmes, veuillez lancer Awoo en mode 'non-Applet' (Maintenez R pendant le démarrage d'un jeu)!"
+            "desc": "Vous pouvez rencontrer des problèmes en utilisant TF Installer en mode Applet.\n\n Si vous avez des problèmes, veuillez lancer en mode 'non-Applet' (Maintenez R pendant le démarrage d'un jeu)!"
         },
         "buttons": "\ue0e0 Select    \ue0e1 Quitter"
     },
@@ -43,14 +43,14 @@
             "url": {
                 "hint": "Entrez l'URL d'un fichier",
                 "invalid": "L'URL spécifiée n'est pas valide !",
-                "source_string": " à partir d'un URL"
+                "source_string": " à partir d'une URL"
             },
             "gdrive": {
                 "hint": "Saisissez l'ID d'un fichier Google Drive public",
                 "alt_name": "Fichier Google Drive",
                 "source_string": " à partir de Google Drive"
             },
-            "top_info": "Sélectionnez les fichiers que vous voulez installer à partir du serveur, puis appuyez sur le bouton Plus !",
+            "top_info": "Sélectionnez les fichiers que vous voulez installer à partir du serveur, puis appuyez sur le bouton PLus !",
             "top_info1": "En attente d'une connexion... L'adresse IP de votre switch est : ",
             "failed": "Echec de l'installation à distance !",
             "transfer_interput": "Une erreur s'est produite pendant le transfert des données. Vérifiez votre connexion réseau.",
@@ -108,7 +108,7 @@
             "error": "Le NCA demandé n'est pas correctement signé: "
         },
         "finished": [
-            "Profitez bien de vos \"backups légaux\"!",
+            "Profitez bien de vos \"backups légales\"!",
             "Je suis sûr qu'après avoir essayé le jeu, vous prendrez beaucoup de plaisir à l'acheter !",
             "Vous achetez vos jeux ? Nintendo-san vous remercie de votre achat!",
             "Contourner les DRM, c'est génial, non ?",
@@ -122,13 +122,13 @@
         "uninstall": "Désinstaller",
         "update": "Mettre à jour",
         "version_text": "Vous avez actuellement des sigpatches installés pour la version HOS ",
-        "title0": "Installer les sigpatches ?",
+        "title0": "Installer les syspatches ?",
         "desc0": "Les sigpatches sont nécessaires pour installer et utiliser les logiciels officiels.",
         "backup_failed": "Impossible de sauvegarder le fichier Patches.ini d'Hekate ! Installer quand même ?",
         "backup_failed_desc": "Si vous n'utilisez pas Hekate, vous pouvez ignorer cet avertissement.",
-        "download_failed": "Impossible de télécharger les sigpatches",
+        "download_failed": "Impossible de télécharger les syspatches",
         "download_failed_desc": "Vous avez peut-être fourni une source invalide dans les paramètres de l'installateur Awoo,\nou l'hôte est peut-être juste en panne en ce moment.",
-        "version_text2": "Vos sigpatches ont été mis à jour pour la version d'HOS ",
+        "version_text2": "Vos syspatches ont été mis à jour pour la version d'HOS ",
         "install_complete": "Installation complète !",
         "complete_desc": "Redémarrez votre console pour appliquer",
         "restart": "Redémarrer",
@@ -136,9 +136,9 @@
         "extract_failed": "Impossible d'extraire les fichiers !",
         "restore_failed": "Impossible de restaurer le fichier original patches.ini d'Hekate ! Continuer à désinstaller ?",
         "uninstall_complete": "Désinstallation complète",
-        "remove_failed": "Impossible de supprimer les sigpatches",
+        "remove_failed": "Impossible de supprimer les syspatches",
         "remove_failed_desc": "Les fichiers ont peut-être été renommés ou supprimés",
-        "generic_error": "Echec de l'installation des sigpatches !"
+        "generic_error": "Echec de l'installation des syspatches !"
     },
     "options": {
         "menu_items": {
@@ -156,33 +156,33 @@
         "nca_warn": {
             "title": "Avertissement!",
             "desc": "Certains fichiers installables peuvent contenir des contenus malveillants ! Ne désactivez cette fonction\nque si vous êtes absolument certain que le logiciel que vous allez installer est digne de confiance !\n\nVoulez-vous toujours désactiver la vérification de la signature des NCA ?",
-            "opt1": "Oui, je suis inconscient et je veux brick ma Switch"
+            "opt1": "Oui, je suis conscient que je peut brick ma Switch"
         },
-        "sig_hint": "Entrez l'URL pour obtenir les sigpatches",
+        "sig_hint": "Entrez l'URL pour obtenir les syspatches",
         "update": {
             "title": "Mise à jour disponible",
-            "desc0": "Awoo Installer ",
+            "desc0": "TF Installer ",
             "desc1": " est disponible dès maintenant ! Prêt à mettre à jour ?",
             "opt0": "Mise à jour",
-            "top_info": "Mise à jour de l'installateur Awoo ",
-            "bot_info": "Téléchargement de l'installateur Awoo ",
-            "bot_info2": "Extraction de l'installateur Awoo ",
+            "top_info": "Mise à jour de l'installateur ",
+            "bot_info": "Téléchargement de l'installateur ",
+            "bot_info2": "Extraction de l'installateur ",
             "complete": "Mise à jour complète !",
             "failed": "La mise à jour a échoué !",
             "end_desc": "Le logiciel sera maintenant fermé.",
             "title_check_fail": "Aucune mise à jour trouvée",
-            "desc_check_fail": "Vous êtes sur la dernière version de Awoo Installer !"
+            "desc_check_fail": "Vous êtes sur la dernière version de TF Installer !"
         },
         "credits": {
             "title": "Merci aux personnes suivantes !",
-            "desc": "- HookedBehemoth pour BEAUCOUP de contributions\n- Adubbz et d'autres contributeurs pour Tinfoil\n- XorTroll pour Plutonium et Goldleaf\n- blawar (étrangleur de femme) et nicoboss pour le support des NSZ\n- Les personnes aimables du Discord AtlasNX (ou du moins certains d'entre eux)\n- Les gens aussi aimables du Discord RetroNX (sans participation directe)\n- namako8982 pour l'art Momiji \n- TheXzoron pour avoir été un baka"
+            "desc": "- HookedBehemoth pour BEAUCOUP de contributions\n- Adubbz et d'autres contributeurs pour Tinfoil\n- XorTroll pour Plutonium et Goldleaf\n- blawar (étrangleur de femme) et nicoboss pour le support des NSZ\n- Les personnes aimables du Discord AtlasNX (ou du moins certains d'entre eux)\n- Les gens aussi aimables du Discord RetroNX (sans participation directe)\n- namako8982 pour l'art Momiji \n- TheXzoron pour avoir été un baka \n Huntereb for the original program Awoo Installer"
         },
         "language": {
-            "title": "Sélectionnez la langue de Awoo Installer",
+            "title": "Sélectionnez la langue de TF Installer",
             "desc": "Le logiciel sera fermé après avoir changé de langue. Appuyez sur B pour annuler.",
             "system_language": "Système"
         },
-        "title": "Modifiez les paramètres de Awoo Installler !",
+        "title": "Modifiez les paramètres de TF Installler !",
         "buttons": "\ue0e0 Sélectionner/Modifier    \ue0e1 Annuler"
     },
     "common": {
